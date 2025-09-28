@@ -32,10 +32,11 @@ It allows users to **search for any city** or use their **current location** to 
 
 Screenshots:
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a511ba1-29ed-4c8d-9c27-0b76dd68b2f1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ec8c153-4309-4835-921b-9e0940788253" />
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2ed8a97-55bd-4d8f-b1d2-25f38d1dea86" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8e9c9c5-1d3d-4424-ac5f-8455e0673750" />
+
 
 ## 🚀 Getting Started
 
