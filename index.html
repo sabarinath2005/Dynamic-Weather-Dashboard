@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dynamic Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Weather Dashboard</h1>
+      <div class="controls">
+        <input id="cityInput" type="text" placeholder="Search city..." aria-label="Search city" />
+        <button id="searchBtn">Search</button>
+        <button id="locBtn" title="Use my location">📍</button>
+      </div>
+    </header>
+
+    <section id="weatherCard" class="card hidden">
+      <div class="current">
+        <div class="left">
+          <div class="place" id="locationName">—</div>
+          <div class="temp" id="currentTemp">—°C</div>
+          <div class="desc" id="currentDesc">—</div>
+        </div>
+        <div class="right">
+          <img id="currentIcon" src="" alt="" />
+          <div class="meta">
+            <div>Feels: <span id="feelsLike">—°C</span></div>
+            <div>Humidity: <span id="humidity">—%</span></div>
+            <div>Wind: <span id="wind">— m/s</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="forecast" id="forecast">
+        <!-- daily forecast cards inserted here -->
+      </div>
+    </section>
+
+    <section id="loading" class="card info">
+      <p id="status">Waiting for location permission...</p>
+    </section>
+
+    <footer class="footer">
+      <small>Weather data from OpenWeatherMap</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
